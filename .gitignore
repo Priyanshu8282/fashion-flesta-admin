@@ -3,7 +3,7 @@ node_modules
 out
 dist
 build
-.env
+# .env
 .env.local
 .env.production.local
 .env.development.local
