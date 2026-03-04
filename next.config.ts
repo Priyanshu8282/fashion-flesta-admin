@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-    /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "fashion-flesta-backend-91rm.onrender.com",
+        pathname: "/uploads/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
